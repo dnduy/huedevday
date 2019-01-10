@@ -1,0 +1,314 @@
+#header{
+    background: url('images/header-bg.jpg') no-repeat;
+    /* min-height: 690px; */
+  /*   background-size: cover;
+    z-index: 1000;
+    position: relative; */
+}
+h1.brand-title {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.main-navigation a{
+     color: #002B34;
+     padding: 7px 5px  ;
+     /* font-weight: bold; */
+     font-size: 15px;
+     font-weight: 500;
+}
+.dangky{
+    border-width: 0px;
+    background: #4EC3F8;
+    color: white;
+    font-weight: bold;
+}
+
+.dangky ,input[type="submit"].dangky{
+    border-width: 0px;
+    background: #4EC3F8;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    /* position: relative; */
+    /* left: 70px; */
+    padding: 14px;
+    font-size: 20px;
+}
+.text-header{
+    margin-top: 110px;
+}
+#noidung{
+    background: #EEF8FA;
+    padding-bottom:50px;
+    color:#00A0C7;
+ /*    z-index: 1000;
+    position: relative; */
+}
+#noidung p{ text-align: justify; }
+#noidung h2, #noidung h3,#thele h2, .thele-info, #giaithuong h2, #news h2 , h2,h3,h4,h5,h6{
+    color:#00A0C7;
+}
+#noidung h2,#thele h2, #giaithuong h2 , #news h2,  #taitro h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+#taitro h3, #taitro h4{
+    margin : 30px 0px;
+}
+#taitro{ background-color: #EEF8FA; padding-bottom: 50px;}
+.thele-dk{
+    color: #FD881E!important;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+#noidung h3{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.noidung-content{
+    padding: 10px 20px;
+}
+
+#thele{
+    /* padding-bottom: 40px; */
+    background: #C5E3FF;
+}
+#timeline{
+    background: url('images/timeline-bg.png') no-repeat;
+    position: relative;
+    top: -100px;
+}
+.timeline-conent{
+    background: url('images/timeline.png') no-repeat center center;
+}
+.top-timeline p{
+   background: url('images/second-timeline.png') no-repeat left center;
+    display: initial;
+    padding: 15px;
+    padding-left: 20px;
+}
+.first-timeline p{
+ background: url('images/timeline-first.png') no-repeat left center;
+    display: initial;
+    padding: 15px;
+    padding-left: 20px;
+}
+.third-timeline p{
+ background: url('images/third-timeline.png') no-repeat left center;
+    display: initial;
+    padding: 15px;
+    padding-left: 20px;
+}
+.top-timeline
+{
+    margin-bottom: 10px;
+}
+
+.first-timeline, .third-timeline{
+    margin-top: 10px;
+
+}
+.readmore{
+    margin-top: 70px;
+}
+.readmore a{
+    color:#00A0C7;
+}
+#giaithuong{
+    background: #EEF8FA;
+}
+.cup1{
+    background: url('images/cup1.png') no-repeat;
+    background-position: left center;
+    height: 70px;
+    background-size:  contain;
+}
+.cup2{
+    background: url('images/cup2.png') no-repeat;
+    background-position: left center;
+    height: 70px;
+    background-size:  contain;
+    margin-left: 20px;
+}
+.cup{
+    margin-bottom: 10px;
+}
+.cup p{
+   padding-left: 120px;
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 25px;
+}
+.cup p strong{
+    color:#00A0C7;
+
+}
+.cup3{
+    background: url('images/cup3.png') no-repeat;
+    background-position: left center;
+    height: 70px;
+    background-size:  contain;
+    margin-left: 40px;
+}
+
+.cup4{
+    background: url('images/cup4.png') no-repeat;
+    background-position: left center;
+    height: 70px;
+    margin-left: 60px;
+    background-size:  contain;
+}
+.cup4 p{ padding-top: 10px;
+
+}
+.thele-info{
+    font-size: 15px;
+}
+.giaithuong-img{
+
+}
+.giaithuong-dangky {
+    position: absolute;
+    right: 140px;
+    top: -20px;
+    /*     position: fixed;
+    right: 140px;
+    top: 200px; */
+}
+#news{
+    background-color: #C5E3FF;
+}
+
+#footer{
+    background: #002B34;
+    /* color: white; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#footer a, #footer{
+    color: white;
+}
+
+.kenh span.wpcf7-list-item{
+    display: block;
+}
+.wpcf7 input{
+    border: 0px;
+    border-bottom: 2px solid #00A0C7;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color:#002B34;
+    font-size: 14px;
+    font-weight: 500;
+}
+.taitro-phu img{
+    height: 200px;
+}
+img.taitro-phu {
+    width: 200px;
+}
+@media (max-width: 576px){
+     #timeline{
+        position: static;
+    }
+    .timeline-conent{
+        background: none;
+    }
+
+    .top-timeline, .first-timeline,.third-timeline{text-align: left!important;}
+    .top-timeline p,
+    .first-timeline p,
+    .third-timeline p{
+        background: none;
+        padding: 0px;
+
+    }
+    .cup1, .cup2, .cup3, .cup4{
+        margin-left: 0px;
+        background-size: cover;
+    }
+    .giaithuong-dangky{
+        right: 0px;
+    }
+    #taitro img{
+        margin-bottom: 20px;
+    }
+    a.navbar-brand.js-scroll-trigger {
+    white-space: pre-wrap;
+
+    }
+    .giaithuong-dangky {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+       /*  position: fixed;
+    right: 140px;
+    top: 200px; */
+}
+}
+
+@media (max-width:767px) and (min-width: 576px ){
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+    #timeline{
+        position: static;
+    }
+    .timeline-conent{
+        background: none;
+    }
+
+    .top-timeline, .first-timeline,.third-timeline{text-align: left!important;}
+    .top-timeline p,
+    .first-timeline p,
+    .third-timeline p{
+        background: none;
+        padding: 0px;
+
+    }
+    .cup1, .cup2, .cup3, .cup4{
+        margin-left: 0px;
+        background-size: cover;
+    }
+    .giaithuong-dangky{
+        right: 0px;
+    }
+    #taitro img{
+        margin-bottom: 20px;
+    }
+    a.navbar-brand.js-scroll-trigger {
+    white-space: pre-wrap;
+
+    }
+    .giaithuong-dangky {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+       /*  position: fixed;
+    right: 140px;
+    top: 200px; */
+}
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+ }
+
+
+@media (min-width: 992px) {
+
+ }
+
+
+@media (min-width: 1200px) {
+
+ }
+
